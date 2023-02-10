@@ -13,8 +13,12 @@ Messages will arrive on the inbox. We want to forward those messages to `recepti
 * Messages containing the text _proposal_ should be forwarded to `sales`, instead of `reception`
 * The rules from the previous stories still apply (_CV_ to `recruitment` and the rest to `reception`)
 
-### Story 4: Log: For each message we forwarded, a trace should be logged
-You can choose an implementation yourself.
+### Story 4: Remember the original sender
+We are forwarding messages but by doing this we don't know the original sender (from) anymore.
+Change the implementation so that we know who was the original sender of the message.
 
 ### Story 5: Aggregated reporting: by the end of the day, how many messages were assigned to a certain category
 This report should be consultable on demand. 
+
+### Story 6: Log: For each message we forwarded, a trace should be logged
+You can choose an implementation yourself.
